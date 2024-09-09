@@ -24,3 +24,33 @@ git clone https://github.com/cesium/etudes.git
 cd etudes
 ```
 
+## 🤝 Contributing
+
+* **Branch Naming**: Use the format feature/[your_initials]_chapterXX for branch names.
+* **Pull Requests**: Submit a PR at the end of each day. Ensure that your code is well-documented and adheres to best practices.
+* **Code Review**: Engage in the code review process by providing constructive feedback on your peers’ PRs.
+
+## Repository Structure
+
+The repository is organized into subfolders for each chapter. Inside each chapter’s folder, create a new folder named with your initials when submitting your pull request for that chapter. This structure helps in maintaining an organized workflow and easy review process.
+
+```bash
+elixir-etudes-solutions/
+│
+├── chapter01/
+│   ├── fr/
+│   ├── jl/
+│   └── ...
+│
+├── chapter02/
+│   ├── fr/
+│   ├── jl/
+│   └── ...
+│
+└── ...
+
+```
+
+## 📚 Resources
+
+* **Elixir Documentation**: [Official Elixir Docs](https://elixir-lang.org/docs.html)
