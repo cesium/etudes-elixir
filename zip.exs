@@ -1,6 +1,8 @@
 defmodule Questao do
-  @spec zip(list(), list()) :: list()
 
+# Implementar uma função que recebe duas listas e retorna uma lista de tuplas, onde cada tupla contém um elemento de cada lista nas respectivas posições.
+
+  @spec zip(list(), list()) :: list()
   def zip([], _), do: []
 
   def zip(_, []), do: []

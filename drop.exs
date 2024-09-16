@@ -1,4 +1,7 @@
 defmodule Questao do
+
+  #Implementa uma função que recebe um número inteiro N e uma lista, e remove os primeiros N elementos da lista.
+
   @spec drop(integer(), list()) :: list()
 
   def drop(_, []), do: []

@@ -1,4 +1,7 @@
 defmodule Questao do
+
+# Implementar uma função que recebe um número N e uma lista, e retorna os primeiros N elementos dessa lista.
+
   @spec take(integer(), list()) :: list()
   def take(_, []), do: []
 
