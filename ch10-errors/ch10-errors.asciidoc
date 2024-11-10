@@ -29,8 +29,6 @@ iex(5)> Stats.stdv([1])
 %ArithmeticError{}
 -------
 
-<<SOLUTION10-ET01,See a suggested solution in Appendix A.>>
-
 [[CH10-ET02]]
 Étude 10-2: Logging Errors
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -108,6 +106,4 @@ Balance inquiry $17149.75
 D)eposit, W)ithdraw, B)alance, Q)uit: q
 nil
 -----------
-
-<<SOLUTION10-ET02,See a suggested solution in Appendix A.>>
 

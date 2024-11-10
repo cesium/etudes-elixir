@@ -232,8 +232,6 @@ iex(5)> GenServer.call(Weather, "KCMI")
   weather: "A Few Clouds", temperature_string: "83.0 F (28.3 C)"]}
 ----
 
-<<SOLUTION12-ET01,See a suggested solution in Appendix A.>>
-
 [[CH12-ET02]]
 Étude 12-2: Wrapper Functions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -282,8 +280,6 @@ iex(8)> Weather.recent
 Recently viewed: ["KITH","KSJC","KGAI"]
 :ok
 ------
-
-<<SOLUTION12-ET02,See a suggested solution in Appendix A.>>
 
 [[CH12-ET03]]
 Étude 12-3: Independent Server and Client
@@ -445,8 +441,6 @@ iex(clientNode@localhost)5> Weather.report("KGAI")
 
 The fact that it failed told me that yes, indeed, the client was
 getting its information from the server.
-
-<<SOLUTION12-ET03,See a suggested solution in Appendix A.>>
 
 [[CH12-ET04]]
 Étude 12-4: Chat Room
@@ -688,6 +682,4 @@ iex(marketing@localhost)6> Person.who("Steve", :sales@localhost)
 #HashDict<[city: "Chicago"]>
 Steve (sales@localhost) says: Have to leave. Bye, everyone.
 ------
-
-<<SOLUTION12-ET04,See a suggested solution in Appendix A.>>
 

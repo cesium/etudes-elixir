@@ -67,8 +67,6 @@ iex(6)> salt = na + cl
 58.44
 ----
 
-<<SOLUTION13-ET01,See a suggested solution in Appendix A.>>
-
 [[CH13-ET02]]
 Étude 13-2: Adding Durations
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -89,8 +87,6 @@ iex(2)> Duration.add({2,15},{3,12})
 iex(3)> Duration.add({2,45},{3,22})
 {6,7}
 ----
-
-<<SOLUTION13-ET02,See a suggested solution in Appendix A.>>
 
 [[CH13-ET03]]
 Étude 13-3: Adding Durations (operator version)
@@ -186,5 +182,3 @@ iex(4)> {5, 46} + {2, 14}
 iex(5)> 12 + 9
 21
 ----
-
-<<SOLUTION13-ET03,See a suggested solution in Appendix A.>>

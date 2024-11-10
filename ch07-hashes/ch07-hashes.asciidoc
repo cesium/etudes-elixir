@@ -57,8 +57,6 @@ iex(2)> College.make_room_list("courses.csv")
 {"C104",["MATH 311"]},...}
 ----
 
-<<SOLUTION07-ET01,See a suggested solution in Appendix A.>>
-
 [[CH07-ET02]]
 Étude 7-2: Creating Structures from a File
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -111,8 +109,6 @@ iex(2)> Geography.make_geo_list("geography.csv")
     population: 1739117}], language: "German", name: "Germany"}]
 ----
 
-<<SOLUTION07-ET02,See a suggested solution in Appendix A.>>
-
 [[CH07-ET03]]
 Étude 7-3: Using Structures
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -141,8 +137,6 @@ iex(1)> glist = Geography.make_geo_list("geography.csv")
 iex(2)> Geography.total_population(glist, "Korean")
 12915852
 ----
-
-<<SOLUTION07-ET03,See a suggested solution in Appendix A.>>
 
 [[CH07-ET04]]
 Étude 7-4: Protocols with Structures
@@ -182,6 +176,3 @@ false
 -----
 
 Notice that I decided to round the latitude and longitude to two digits. If you decide to do this and you use +Kernel.round/2+, remember that its first argument must be of type +float+. In order to allow people to use integers for latitude and longitude, I simply multiplied them by 1.0, which converted them to the correct type.
-
-
-<<SOLUTION07-ET04,See a suggested solution in Appendix A.>>

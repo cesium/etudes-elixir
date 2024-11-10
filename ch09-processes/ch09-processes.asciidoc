@@ -126,5 +126,3 @@ go on for a very, very long time.
 
 Use plenty of calls to +IO.puts+ to see what your code is really doing.
 
-<<SOLUTION09-ET01,See a suggested solution in Appendix A.>>
-

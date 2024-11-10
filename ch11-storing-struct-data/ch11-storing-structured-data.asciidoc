@@ -114,8 +114,6 @@ iex(4)> PhoneEts.summary("111-222-3333")
 
 Creating the summary for all the phone numbers will be easier if you use +:ets.first/1+ and +:ets.next/2+.  The +:ets.first/1+ function takes a table name as its argument and returns the first key in the table. The +:ets.next/2+ function takes the table name as its first argument and the current key as its second argument. It returns the next key in the table. When there are no more keys, it returns the special atom +:"$end_of_table"+.
 
-<<SOLUTION11-ET01,See a suggested solution in Appendix A.>>
-
 ////
 [[CH11-ET02]]
 Étude 11-2: Using Mnesia
@@ -303,5 +301,4 @@ get_info_easier() ->
   [People, Pets].
 ----
 
-<<SOLUTION11-ET02,See a suggested solution in Appendix A.>>
 ////
