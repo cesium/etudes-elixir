@@ -1,4 +1,7 @@
 defmodule Questao do
+
+  #Implementa uma função que recebe uma string e retorna o comprimento da última palavra dessa string.
+
   @spec length_of_last_word(s :: String.t()) :: integer
   def length_of_last_word(s) do
     s

@@ -1,4 +1,7 @@
 defmodule Questao do
+
+  #Implementa uma função que recebe uma lista e um índice, retornando o elemento na posição indicada.
+
   @spec index(list(), integer()) :: list()
   def index(_, []), do: []
 
